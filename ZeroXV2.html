@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ZeroX Utility</title>
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Segoe UI,Tahoma,sans-serif
+}
+body{
+  min-height:100vh;
+  background:radial-gradient(circle at top,#061c2e,#000);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+  color:#00f6ff
+}
+.card{
+  width:90%;
+  max-width:380px;
+  background:linear-gradient(180deg,#031826,#020b12);
+  border-radius:20px;
+  padding:25px;
+  box-shadow:0 0 25px rgba(0,255,255,.25)
+}
+.profile{
+  text-align:center;
+  margin-bottom:25px
+}
+.glow-circle{
+  width:110px;
+  height:110px;
+  margin:0 auto 15px;
+  border-radius:50%;
+  border:3px solid #00f6ff;
+  box-shadow:0 0 20px #00f6ff
+}
+.glow-circle img{
+  width:100%;
+  height:100%;
+  border-radius:50%;
+  object-fit:cover;
+}
+.profile h1{
+  font-size:26px;
+  letter-spacing:1px
+}
+.premium{
+  font-size:14px;
+  opacity:.8;
+  margin-top:4px
+}
+.meta{
+  font-size:13px;
+  opacity:.7;
+  margin-top:6px
+}
+label{
+  display:block;
+  margin:15px 0 6px;
+  font-size:14px
+}
+input,select{
+  width:100%;
+  padding:12px;
+  background:transparent;
+  border-radius:10px;
+  border:2px solid rgba(0,246,255,.4);
+  color:#00f6ff;
+  outline:none
+}
+input::placeholder{
+  color:rgba(0,246,255,.5)
+}
+button{
+  width:100%;
+  margin-top:20px;
+  padding:14px;
+  border:none;
+  border-radius:14px;
+  background:linear-gradient(90deg,#00f6ff,#00c0ff);
+  color:#001018;
+  font-weight:bold;
+  font-size:16px;
+  box-shadow:0 0 20px rgba(0,246,255,.6)
+}
+footer{
+  margin-top:20px;
+  font-size:12px;
+  opacity:.5
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+  <div class="profile">
+    <div class="glow-circle">
+  <img src="Logo.jpg">
+</div>
+    <h1>ZeroX Utility</h1>
+    <p class="premium">"PREMIUM"</p>
+    <p class="meta">Role: OWNER · Exp: none</p>
+  </div>
+
+  <label>TARGET NUMBER</label>
+  <input type="text" placeholder=" 628xxxxxxx">
+
+  <label>SELECT BUG</label>
+  <select>
+    <option>Select Bug...</option>
+    <option>Delay invisible</option>
+    <option>Crash WhatsApp</option>
+    <option>Crash UI</option>
+  </select>
+
+  <button>SEND BUG</button>
+</div>
+
+<footer>© Inisial "A"</footer>
+
+</body>
+</html>
